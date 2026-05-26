@@ -5,7 +5,7 @@ const CODE = ({ children }) => (
     background: "#0f172a", color: "#e2e8f0", borderRadius: 8,
     padding: "12px 16px", fontSize: 13, margin: "10px 0",
     overflowX: "auto", lineHeight: 1.6, fontFamily: "monospace",
-    border: "1px solid #334155"
+    border: "1px solid #334155", textAlign: "left"
   }}>
     <code>{children}</code>
   </pre>
