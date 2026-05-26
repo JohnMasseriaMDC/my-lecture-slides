@@ -144,7 +144,7 @@ del players["Neymar"]
 prices = {"apples": 1.99, "oranges": 1.49}
 
 # f-string access
-print(f"Apples: ${prices.apples}")`})]})})]})},{id:`sets`,content:()=>(0,f.jsxs)(`div`,{children:[(0,f.jsx)(`h2`,{style:{fontSize:22,fontWeight:700,color:`#0f172a`,marginBottom:16},children:`Sets — Unordered, Unique Elements`}),(0,f.jsx)(y,{left:(0,f.jsxs)(f.Fragment,{children:[(0,f.jsx)(g,{items:[`Unordered — no index, no position`,`Unique — no duplicate elements`,`Mutable — can add/remove elements`,`Great for deduplication`]}),(0,f.jsx)(p,{children:`# Create with set() or curly braces
+print(f"Apples: \${prices['apples']}")`})]})})]})},{id:`sets`,content:()=>(0,f.jsxs)(`div`,{children:[(0,f.jsx)(`h2`,{style:{fontSize:22,fontWeight:700,color:`#0f172a`,marginBottom:16},children:`Sets — Unordered, Unique Elements`}),(0,f.jsx)(y,{left:(0,f.jsxs)(f.Fragment,{children:[(0,f.jsx)(g,{items:[`Unordered — no index, no position`,`Unique — no duplicate elements`,`Mutable — can add/remove elements`,`Great for deduplication`]}),(0,f.jsx)(p,{children:`# Create with set() or curly braces
 nums = {1, 2, 3}
 nums2 = set([1, 2, 2, 3, 3])  # → {1,2,3}
 
