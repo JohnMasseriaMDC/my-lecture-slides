@@ -665,7 +665,7 @@ del players["Neymar"]
 prices = {"apples": 1.99, "oranges": 1.49}
 
 # f-string access
-print(f"Apples: ${prices['apples']}")`}</CODE>
+print(f"Apples: \${prices['apples']}")`}</CODE>
             </>
           }
         />
