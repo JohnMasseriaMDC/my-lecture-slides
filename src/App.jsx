@@ -24,7 +24,7 @@ const Tag = ({ color = "#0ea5e9", bg = "#0c4a6e", children }) => (
 );
 
 const Bullet = ({ items }) => (
-  <ul style={{ margin: "10px 0", paddingLeft: 20, lineHeight: 2 }}>
+  <ul style={{ margin: "10px 0", paddingLeft: 20, lineHeight: 2, textAlign: "left"  }}>
     {items.map((it, i) => <li key={i} style={{ color: "#334155", fontSize: 15 }}>{it}</li>)}
   </ul>
 );
@@ -76,7 +76,7 @@ const HandsOn = ({ num, exercises }) => (
       </div>
     </div>
     <div style={{ background: "#f0fdf4", border: "1px solid #86efac", borderRadius: 8, padding: 20 }}>
-      <ol style={{ margin: 0, paddingLeft: 20, lineHeight: 2.2 }}>
+      <ol style={{ margin: 0, paddingLeft: 20, lineHeight: 2.2, textAlign: "left" }}>
         {exercises.map((ex, i) => (
           <li key={i} style={{ color: "#166534", fontSize: 14 }}>{ex}</li>
         ))}
