@@ -1005,8 +1005,8 @@ print(f"{255:X}")    # → FF`}</CODE>
         <div style={{ background: "#f1f5f9", borderRadius: 8, padding: "12px 16px" }}>
           <div style={{ fontWeight: 600, color: "#334155", fontSize: 13, marginBottom: 6 }}>📚 What's Next — Due 6/17</div>
           <div style={{ display: "flex", gap: 16, fontSize: 12, color: "#475569", flexWrap: "wrap" }}>
-            <span>✅ zyBook Ch. 3 Readings</span>
-            <span>✅ zyBook Ch. 2 Readings + Labs</span>
+            <span>✅ zyBook Ch. 2 Readings + Labs - Due 5/26</span>
+            <span>✅ zyBook Ch. 3 Readings + Labs - Due 6/2</span>
             <span>📌 Ch. 4 Branching begins next week</span>
           </div>
         </div>
