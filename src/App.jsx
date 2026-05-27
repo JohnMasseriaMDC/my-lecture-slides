@@ -747,7 +747,7 @@ A.difference(B)
       <HandsOn num={3} exercises={[
         "Create a dictionary mapping 5 countries to their capital cities. Print a formatted list: \"The capital of [country] is [capital].\"",
         "Build a simple inventory system: create an empty dict, add 3 items with prices, update one price, and delete one item. Print the final inventory.",
-        "Given a list with duplicate values, use a set to find all unique values. Then compare two sets of students enrolled in two courses using intersection and difference.",
+        "Given a list with duplicate values, use a set to find all unique values. Then given these two sets — python_students = {\"Ana\", \"Bob\", \"Cara\", \"David\", \"Eva\"} and java_students = {\"Bob\", \"Cara\", \"Frank\", \"Grace\", \"David\"} — find students enrolled in both courses and students in Python but not Java.",
         "CHALLENGE: Create a port_registry dict mapping cruise ship names to a tuple of (home_port, capacity). Print all ships homeported in Miami.",
       ]} />
     )
