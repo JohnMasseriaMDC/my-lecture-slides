@@ -349,7 +349,7 @@ print(f"{2*4=}")   # → 2*4=8`}</CODE>
                   [":x", "Hex lower", "print(f'{31:x}')", "1f"],
                   [":f", "Fixed float", "print(f'{4:f}')", "4.000000"],
                   [":.2f", "2 decimal places", "print(f'{4:.2f}')", "4.00"],
-                  [",:,.2f", "Currency-style", "print(f'{7600.1:,.2f}')", "7,600.10"],
+                  [":,.2f", "Currency-style", "print(f'{7600.1:,.2f}')", "7,600.10"],
                 ].map(([spec, label, code, out], i) => (
                   <div key={i} style={{
                     display: "grid", gridTemplateColumns: "50px 90px 1fr 60px",
