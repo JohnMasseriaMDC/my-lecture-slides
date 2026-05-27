@@ -151,7 +151,7 @@ const slides = [
             ["0:10", "Block 1 — Strings (3.1, 3.10)", "#0ea5e9", "#e0f2fe", "40 min"],
             ["0:50", "Hands-On Activity 1", "#059669", "#d1fae5", "15 min"],
             ["1:05", "☕ BREAK", "#d97706", "#fef3c7", "10 min"],
-            ["1:15", "Block 2 — Lists & Tuples (3.2, 3.3)", "#8b5cf6", "#ede9fe", "40 min"],
+            ["1:15", "Block 2 — Lists & Tuples (3.2, 3.3)", "#b91c1c", "#ede9fe", "40 min"],
             ["1:55", "Hands-On Activity 2", "#059669", "#d1fae5", "15 min"],
             ["2:10", "☕ BREAK", "#d97706", "#fef3c7", "10 min"],
             ["2:20", "Block 3 — Dictionaries & Sets (3.4, 3.5)", "#ec4899", "#fce7f3", "30 min"],
@@ -263,8 +263,8 @@ name = "daniel"`}</CODE>
                   {[
                     ["alphabet[0]", "→ 'A'", "#0ea5e9"],
                     ["alphabet[19]", "→ 'T'", "#0ea5e9"],
-                    ["alphabet[-1]", "→ 'Z'", "#8b5cf6"],
-                    ["alphabet[-26]", "→ 'A'", "#8b5cf6"],
+                    ["alphabet[-1]", "→ 'Z'", "#b91c1c"],
+                    ["alphabet[-26]", "→ 'A'", "#b91c1c"],
                   ].map(([code, result, col], i) => (
                     <div key={i} style={{ display: "flex", justifyContent: "space-between", fontFamily: "monospace", fontSize: 12 }}>
                       <span style={{ color: col }}>{code}</span>
@@ -712,7 +712,7 @@ len(unique)            # count of elements`}</CODE>
               <div style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 12 }}>
                 {[
                   [".union(other)", "All unique elements from both", "#0ea5e9"],
-                  [".intersection(other)", "Only elements in common", "#8b5cf6"],
+                  [".intersection(other)", "Only elements in common", "#b91c1c"],
                   [".difference(other)", "In this set but NOT in other", "#ec4899"],
                   [".symmetric_difference(other)", "In exactly one of the two sets", "#f97316"],
                 ].map(([method, desc, col], i) => (
@@ -785,7 +785,7 @@ A.difference(B)
               ]
             },
             {
-              cat: "Sequence", icon: "📋", color: "#8b5cf6", bg: "#ede9fe",
+              cat: "Sequence", icon: "📋", color: "#b91c1c", bg: "#ede9fe",
               types: [
                 ["str", "Text — immutable, indexed", '"Hello"'],
                 ["list", "Mutable ordered container", "[1, 2, 3]"],
@@ -857,7 +857,7 @@ A.difference(B)
               <div style={{ display: "flex", flexDirection: "column", gap: 5 }}>
                 {[
                   ["int(x)", "→ integer (truncates float)", "#0ea5e9"],
-                  ["float(x)", "→ floating-point", "#8b5cf6"],
+                  ["float(x)", "→ floating-point", "#b91c1c"],
                   ["str(x)", "→ string (any type)", "#ec4899"],
                 ].map(([fn, desc, col]) => (
                   <div key={fn} style={{ background: "#f8fafc", borderRadius: 5, padding: "5px 10px", fontSize: 12, border: "1px solid #e2e8f0" }}>
@@ -987,8 +987,8 @@ print(f"{255:X}")    # → FF`}</CODE>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginBottom: 20 }}>
           {[
             ["3.1 + 3.10", "Strings", "Indexing, concatenation, f-strings, format specs", "#0ea5e9", "#e0f2fe"],
-            ["3.2", "Lists", "Creation, access, mutability, methods, functions", "#8b5cf6", "#ede9fe"],
-            ["3.3", "Tuples", "Immutability, named tuples, when to use", "#8b5cf6", "#ede9fe"],
+            ["3.2", "Lists", "Creation, access, mutability, methods, functions", "#b91c1c", "#ede9fe"],
+            ["3.3", "Tuples", "Immutability, named tuples, when to use", "#b91c1c", "#ede9fe"],
             ["3.5", "Dictionaries", "Key-value pairs, CRUD operations, use cases", "#ec4899", "#fce7f3"],
             ["3.4", "Sets", "Unordered unique elements, set theory ops", "#ec4899", "#fce7f3"],
             ["3.6", "Type Summary", "Choosing the right container", "#f97316", "#fff7ed"],
